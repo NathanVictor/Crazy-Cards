@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>Tela de Inicial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="./script.js"></script>
+    <script defer src="./javascript.js"></script>
+    <script type="text/javascript" language="javascript" src="javascript.js"></script>
+</head>
+
+<body>
+    <header class="container header">
+        <div class="row">
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                        <a href="index.html"> <img src="imgs/logo black.png" class="logo"> </a>  
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-10 memu_area">
+                        <nav class="nav nav-pills flex-column flex-sm-row">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Início</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="index.html#howtoplay">Como Jogar</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="index.html#about">Sobre</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<div id ="cards" class = "container">
+    <div class="row">
+        <div id="pfp" class="col-xs-12 col-md-12 col-lg-12"></div>
+    </div>
+      <div id="cardgame" class="col-12 col-xs-12 col-md-12 col-lg-12">
+
+        <p id="card_text"></p>
+        <button class="btn btn-primary btn-block" id = "butncard" onclick="Card()">Puxar Um Novo Desafio!</button>
+        <input type="text" id="newcard" class="inputcard" placeholder="Digite aqui um novo desafio:">
+        <button class="btn btn-primary btn-block" id = "new_cardtext" onclick="AddNewCard()">Adicionar Desafio!</button>
+      </div>
+</div>
+
+    <footer class="container footer">
+      <div class="row">
+
+        <div class="col-12 footer_area">
+            Copyright 2021 - Disciplina de Desenvolvimento Web - ICEI PUC Minas
+        </div>
+
+     </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/fa32b4f206.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

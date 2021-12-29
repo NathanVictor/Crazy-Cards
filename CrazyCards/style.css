@@ -1,0 +1,260 @@
+body{
+    background-color: #4ecdc4;
+	font-family: Tahoma, sans-serif;
+}
+
+.mv-auto{
+    min-height: 103vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.336);
+    color: white;
+}
+
+.footer_area{
+    padding: 15px;
+    text-align: center;
+}
+
+.header{
+    background: rgba(0, 0, 0, 0.336);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 110px;
+    padding-top: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 15px;
+}
+
+.memu_area{
+    margin-top: 30px;
+}
+
+.memu_area nav a{
+    color:black;
+    font-size: 20px;
+    
+    margin-bottom: 10px;
+    background-color:#c4ee2e;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;  
+}
+	
+.img {
+        width:50px;
+        height:50px;
+
+}	
+	
+#home{
+    background: rgba(0, 0, 0, 0.336);
+    align-items: center;
+    
+}
+
+#home img{
+    display: inline-block;
+    width: 70%; 
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#howtoplay{
+    background: rgba(0, 0, 0, 0.536);
+    align-items: center;
+}
+
+#howtoplay img{
+    display: block;
+    align-items: center;
+    align-content: center;
+    width: 40%; 
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+#about{
+    background: rgba(0, 0, 0, 0.336);
+}
+
+#help{
+    background: rgba(0, 0, 0, 0.536);
+}
+
+#help img{
+    display: inline-block;
+    width: 70%; 
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pfp p{
+        margin-top: 50px;
+        display: inline-block;
+        color: white;
+        font-size: 18px;
+        
+}
+
+.menuItem{
+	font-size: 120%;
+	color: white;
+}
+
+#textabout p{
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
+
+#aboutimg img{
+    display: inline-block;
+    width: 70%; 
+    margin-left:20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:  170px;
+    height: 170px;
+    object-fit: cover
+
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 47px;
+}
+
+#butn{
+    height: 80px;
+    width: 300px;
+    display: table;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  
+}
+
+#butncard{
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #ff0055;
+}
+
+#new_cardtext{
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 20px;
+    background-color:#ffa200;
+}
+
+#cards{
+    background-color: rgba(0, 0, 0, 0.336);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#adcard{
+    background-color: rgba(0, 0, 0, 0.336);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 600px) {
+#cardgame P{
+    background-image: url(/imgs/card_vermelha.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+    height: 700px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+}
+}
+
+@media screen and (max-width: 700px) {
+    #cardgame P{
+        background-image: url(/imgs/card_vermelha.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 700px;
+        text-align: center;
+        align-items: center;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        word-break: wrap;
+    }
+}
+
+#newcard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new_cardtext{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.disabled{
+  display: none;
+}
