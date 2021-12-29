@@ -20,4 +20,4 @@
 
 
 
-OBS: Trabalho realizado na instuição Pontifícia Universidade Católica de Minas Gerais.
+*OBS: Trabalho realizado na instuição Pontifícia Universidade Católica de Minas Gerais.*
